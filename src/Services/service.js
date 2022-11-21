@@ -4,7 +4,7 @@ import {GiSecurityGate, GiReturnArrow} from "react-icons/gi";
 
 import {motion} from "framer-motion"
 
-import {data} from "..//Data";
+
 
 import "./service.css";
 
@@ -14,7 +14,7 @@ const Service = () => {
             <div className="container">
                 <div className="row">
                     <motion.div className="col-12 col-lg-3 col-md-6 pt-3" whileHover={{scale:1.1}}>
-                        <div className="service__item" style={{background:`${data.backgroundColor}`}}>
+                        <div className="service__item" >
                             <motion.span whileTap={{scale:1.3}}>
                                 <FaTruck className="icons" />
                             </motion.span>
