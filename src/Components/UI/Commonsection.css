@@ -1,0 +1,14 @@
+.common__section {
+    background-image:url("https://images.pexels.com/photos/1139785/pexels-photo-1139785.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.common__section h1 {
+    color: rgba(83, 108, 130, 0.484);
+    font-size: 23px;
+}

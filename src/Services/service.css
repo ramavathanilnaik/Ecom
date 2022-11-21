@@ -1,0 +1,23 @@
+.service__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:blanchedalmond;
+    margin-left: 15px;
+    border-radius: 10px;
+    column-gap: 20px;
+}
+
+.icons {
+    border-radius: 50%;
+    font-size: 65px;
+    color: white;
+    background-color: black;
+    padding: 8px;
+
+}
+
+.services {
+    margin-top: 10px;
+}

@@ -1,0 +1,97 @@
+.header {
+    background-color:aliceblue;
+    height: auto;
+    width: 100%;
+    line-height: 50px;
+    position: sticky;
+    position: fixed;
+    
+}
+
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.navigation {
+
+    padding-top: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2.5rem;
+    list-style:none;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.nav__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    margin-left: 25px;
+}
+
+.fav__icon {
+    font-size: 27px;
+    position: relative;
+    margin-left: 10px;
+    
+}
+
+.cart__icon {
+    font-size: 27px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.badge {
+    position: absolute;
+    top: 5px;
+    margin-left:4px;
+    left:20px;
+    right:-0%;
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    font-size: 10px;
+    z-index: 10;
+    opacity: 1.5;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile__menu {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .menu {
+        display: none;
+    }
+    .header {
+        height:70px;
+    }
+}
